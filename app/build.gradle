@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.mythos.demo"
+        minSdkVersion 10
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/jpush-sdk-release1.7.3.jar')
+    compile files('libs/mina-core-2.0.9.jar')
+    compile files('libs/slf4j-api-1.7.7.jar')
+}
