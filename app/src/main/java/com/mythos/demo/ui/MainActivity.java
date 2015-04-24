@@ -46,6 +46,7 @@ public class MainActivity extends ListActivity {
 		list.add("页面缓存");
 		list.add("mina聊天");
 		list.add("JPush");
+		list.add("xUtils");
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
 		this.setListAdapter(adapter);
 		
@@ -71,6 +72,10 @@ public class MainActivity extends ListActivity {
 				case 3:
 					Intent intent3 = new Intent(MainActivity.this, JPushActivity.class);
 					startActivity(intent3);
+					break;
+				case 4:
+					Intent intent4 = new Intent(MainActivity.this, XUtilsActivity.class);
+					startActivity(intent4);
 					break;
 				}
 			}
