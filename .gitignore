@@ -9,3 +9,6 @@
 build
 local.properties
 .idea
+settings.gradle
+gradlew
+gradlew.bat

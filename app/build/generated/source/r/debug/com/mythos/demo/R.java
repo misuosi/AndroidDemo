@@ -52,23 +52,23 @@ public final class R {
     }
     public static final class id {
         public static final int abm_view_baidu_map=0x7f090000;
-        public static final int action_settings=0x7f090023;
+        public static final int action_settings=0x7f090025;
         public static final int btn_back=0x7f09000b;
         public static final int btn_sendmessage=0x7f09000e;
-        public static final int content_tv=0x7f090019;
-        public static final int create_date_tv=0x7f090018;
+        public static final int content_tv=0x7f09001b;
+        public static final int create_date_tv=0x7f09001a;
         public static final int et_editmessage=0x7f09000f;
         public static final int ibtn_right=0x7f09000c;
         public static final int init=0x7f090005;
-        public static final int iv_userhead=0x7f090013;
+        public static final int iv_userhead=0x7f090015;
         public static final int listview_cache=0x7f090011;
-        public static final int listview_footer_content=0x7f09001a;
-        public static final int listview_footer_hint_textview=0x7f09001c;
-        public static final int listview_footer_progressbar=0x7f09001b;
-        public static final int listview_header_content=0x7f09001d;
-        public static final int listview_header_hint_textview=0x7f09001f;
-        public static final int listview_header_text=0x7f09001e;
-        public static final int listview_header_time=0x7f090020;
+        public static final int listview_footer_content=0x7f09001c;
+        public static final int listview_footer_hint_textview=0x7f09001e;
+        public static final int listview_footer_progressbar=0x7f09001d;
+        public static final int listview_header_content=0x7f09001f;
+        public static final int listview_header_hint_textview=0x7f090021;
+        public static final int listview_header_text=0x7f090020;
+        public static final int listview_header_time=0x7f090022;
         public static final int lv_messagelist=0x7f090010;
         public static final int msg_rec=0x7f090008;
         public static final int resumePush=0x7f090007;
@@ -77,16 +77,18 @@ public final class R {
         public static final int setting=0x7f090009;
         public static final int stopPush=0x7f090006;
         public static final int tv_appkey=0x7f090001;
-        public static final int tv_chatcontent=0x7f090014;
+        public static final int tv_chatcontent=0x7f090016;
         public static final int tv_imei=0x7f090003;
         public static final int tv_package=0x7f090002;
-        public static final int tv_sendtime=0x7f090012;
-        public static final int tv_username=0x7f090015;
+        public static final int tv_sendtime=0x7f090014;
+        public static final int tv_showimage=0x7f090012;
+        public static final int tv_showpagecode=0x7f090013;
+        public static final int tv_username=0x7f090017;
         public static final int tv_version=0x7f090004;
-        public static final int user_name_tv=0x7f090017;
-        public static final int user_photo=0x7f090016;
-        public static final int xlistview_header_arrow=0x7f090021;
-        public static final int xlistview_header_progressbar=0x7f090022;
+        public static final int user_name_tv=0x7f090019;
+        public static final int user_photo=0x7f090018;
+        public static final int xlistview_header_arrow=0x7f090023;
+        public static final int xlistview_header_progressbar=0x7f090024;
     }
     public static final class layout {
         public static final int activity_baidu_map=0x7f030000;
@@ -94,14 +96,16 @@ public final class R {
         public static final int activity_main=0x7f030002;
         public static final int activity_mina_chat=0x7f030003;
         public static final int activity_page_cache=0x7f030004;
-        public static final int item_chatting_msg_text_left=0x7f030005;
-        public static final int item_chatting_msg_text_right=0x7f030006;
-        public static final int item_page_cache=0x7f030007;
-        public static final int listview_footer=0x7f030008;
-        public static final int listview_header=0x7f030009;
+        public static final int activity_xutils=0x7f030005;
+        public static final int item_chatting_msg_text_left=0x7f030006;
+        public static final int item_chatting_msg_text_right=0x7f030007;
+        public static final int item_page_cache=0x7f030008;
+        public static final int listview_footer=0x7f030009;
+        public static final int listview_header=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f080000;
+        public static final int menu_xutils=0x7f080001;
     }
     public static final class string {
         public static final int action_settings=0x7f060000;
@@ -117,6 +121,7 @@ public final class R {
         public static final int listview_header_hint_normal=0x7f06000a;
         public static final int listview_header_hint_ready=0x7f06000b;
         public static final int listview_header_last_time=0x7f06000c;
+        public static final int title_activity_xutils=0x7f06000d;
     }
     public static final class style {
         /** 

@@ -22,6 +22,7 @@
     <string name="listview_header_hint_normal">下拉刷新</string>
     <string name="listview_header_hint_ready">松开刷新数据</string>
     <string name="listview_header_last_time">上次更新时间：</string>
+    <string name="title_activity_xutils">XUtilsActivity</string>
     <!-- From: file:/E:/Androidstudioproject/AndroidDemo/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
