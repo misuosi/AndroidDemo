@@ -90,9 +90,7 @@
 
         <!-- service end -->
 
-
         <!-- receiver begin -->
-
 
         <!-- Required  JPush SDK核心功能 -->
         <receiver
