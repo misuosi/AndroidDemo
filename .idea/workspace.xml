@@ -30,8 +30,6 @@
       <change type="DELETED" beforePath="E:\Androidstudioproject\AndroidDemo\.idea\scopes\scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\Androidstudioproject\AndroidDemo\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\Androidstudioproject\AndroidDemo\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Androidstudioproject\AndroidDemo\build\intermediates\dex-cache\cache.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Androidstudioproject\AndroidDemo\local.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <list id="e5566249-91c2-4bf4-9f37-74a02c9f10de" name="no" comment="">
@@ -62,8 +60,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.9193548" vertical-offset="1034" max-vertical-offset="4218">
-              <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.1827957" vertical-offset="1034" max-vertical-offset="4218">
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1771,7 +1769,11 @@
       <created>1429926309392</created>
       <updated>1429926309392</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="delete xutils some file">
+      <created>1429929570499</created>
+      <updated>1429929570499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1828,7 +1830,8 @@
     <MESSAGE value="add test" />
     <MESSAGE value="modify xutils  demo" />
     <MESSAGE value="modify xutils demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify xutils demo" />
+    <MESSAGE value="delete xutils some file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete xutils some file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2192,8 +2195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.9193548" vertical-offset="1034" max-vertical-offset="4218">
-          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.1827957" vertical-offset="1034" max-vertical-offset="4218">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding />
         </state>
       </provider>
