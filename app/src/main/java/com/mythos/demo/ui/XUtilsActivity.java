@@ -70,11 +70,8 @@ public class XUtilsActivity extends Activity {
                                 @Override
                                 public void onSuccess(ResponseInfo<File> responseInfo) {
                                     showPageCode.setText("downloaded:" + responseInfo.result.getPath());
-                                    if (new File("/sdcard/23101945105.doc").delete()) {
-                                        showPageCode.setText(showPageCode.getText() + ",deleted 1");
-                                    }
                                     if (new File(responseInfo.result.getPath()).delete()) {
-                                        showPageCode.setText(showPageCode.getText() + ",deleted 2");
+                                        showPageCode.setText(showPageCode.getText() + ",deleted");
                                     }
                                 }
 
