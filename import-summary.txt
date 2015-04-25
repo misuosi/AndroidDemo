@@ -7,10 +7,7 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* .gitignore
-* hs_err_pid56112.log
-* ic_launcher-web.png
-* proguard-project.txt
+* AndroidManifest.xml
 
 Replaced Jars with Dependencies:
 --------------------------------
@@ -22,35 +19,35 @@ the .jar file in your project was of an older version than the
 dependency we picked, which could render the project not compileable.
 You can disable the jar replacement in the import wizard and try again:
 
-android-support-v4.jar => com.android.support:support-v4:18.0.0
-gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
-
-Potentially Missing Dependency:
--------------------------------
-When we replaced the following .jar files with a Gradle dependency, we
-inferred the dependency version number from the filename. This
-specific version may not actually be available from the repository.
-If you get a build error stating that the dependency is missing, edit
-the version number to for example "+" to pick up the latest version
-instead. (This may require you to update your code if the library APIs
-have changed.)
-
-gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+android-support-v4.jar => com.android.support:support-v4:18.+
 
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => app\src\main\AndroidManifest.xml
-* libs\armeabi\libBaiduMapSDK_v3_2_0_15.so => app\src\main\jniLibs\armeabi\libBaiduMapSDK_v3_2_0_15.so
-* libs\armeabi\libjpush173.so => app\src\main\jniLibs\armeabi\libjpush173.so
-* libs\BaiduLBS_Android.jar => app\libs\BaiduLBS_Android.jar
-* libs\jpush-sdk-release1.7.3.jar => app\libs\jpush-sdk-release1.7.3.jar
-* libs\mina-core-2.0.9.jar => app\libs\mina-core-2.0.9.jar
-* libs\slf4j-api-1.7.7.jar => app\libs\slf4j-api-1.7.7.jar
-* res\ => app\src\main\res\
-* src\ => app\src\main\java\
+In library:
+* src\ => library\src\main\java\
+In sample:
+* AndroidManifest.xml => utils-sample\src\main\AndroidManifest.xml
+* assets\ => utils-sample\src\main\assets\
+* proguard-project.txt => utils-sample\proguard-project.txt
+* res\ => utils-sample\src\main\res\
+* src\ => utils-sample\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
 
 Next Steps:
 -----------

@@ -61,66 +61,6 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 
-        <!-- Activity begin -->
-
-
-        <!-- JPush demo -->
-        <activity
-            android:name=".ui.JPushActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait" >
-        </activity>
-
-        <!-- For test only 测试状态通知栏，需要打开的Activity -->
-        <activity android:name=".example.jpush.TestActivity" >
-            <intent-filter>
-                <action android:name="jpush.testAction" />
-
-                <category android:name="jpush.testCategory" />
-            </intent-filter>
-        </activity>
-
-        <!-- mina实现即时聊天demo -->
-        <activity
-            android:name=".ui.MinaChatActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait" >
-        </activity>
-
-        <!-- 百度地图demo -->
-        <activity
-            android:name=".ui.BaiduMapActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait" >
-        </activity>
-
-        <!-- 主Activity -->
-        <activity
-            android:name=".ui.MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <!-- Required JPush SDK核心功能 -->
-        <activity
-            android:name="cn.jpush.android.ui.PushActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-            <intent-filter>
-                <action android:name="cn.jpush.android.ui.PushActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.mythos.demo" />
-            </intent-filter>
-        </activity>
-
-        <!-- Activity end -->
-
-
         <!-- service begin -->
 
         <service
@@ -210,10 +150,69 @@
             android:name="JPUSH_APPKEY"
             android:value="931a9a8ec6dfeadd6b9354f1" /> <!-- </>值来自开发者平台取得的AppKey -->
 
+        <!-- Activity begin -->
+
+        <!-- 主Activity -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required JPush SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.mythos.demo" />
+            </intent-filter>
+        </activity>
+
+        <!-- mina实现即时聊天demo -->
+        <activity
+            android:name=".ui.MinaChatActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 百度地图demo -->
+        <activity
+            android:name=".ui.BaiduMapActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- JPush demo -->
+        <activity
+            android:name=".ui.JPushActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- For test JPush only 测试状态通知栏，需要打开的Activity -->
+        <activity android:name=".example.jpush.TestActivity" >
+            <intent-filter>
+                <action android:name="jpush.testAction" />
+                <category android:name="jpush.testCategory" />
+            </intent-filter>
+        </activity>
+
+        <!-- xUtils demo -->
         <activity
             android:name=".ui.XUtilsActivity"
             android:label="@string/title_activity_xutils" >
         </activity>
+
+        <!-- Activity end -->
+
     </application>
 
 </manifest>
