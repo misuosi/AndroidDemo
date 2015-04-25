@@ -12,3 +12,7 @@ local.properties
 settings.gradle
 gradlew
 gradlew.bat
+gradle
+AndroidDemo.iml
+build.gradle
+import-summary.txt
